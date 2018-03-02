@@ -1,7 +1,2 @@
-blah blah
+jQuery Bootstrap Setup
 
-
-kjdhkjhds 123
-
-
-final test 123
