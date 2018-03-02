@@ -7,7 +7,8 @@ $(document).ready(function () {
     // target all the elments in the DOM with the name of button
     $('.btn-success').addClass('shake');
     // target a button with a particular class
-    $('#target6').addClass('fadeOut');
+
+    // $('#target6').addClass('fadeOut');
     // target a button with a particular ID
 
     $('button').removeClass('btn-success');
@@ -19,9 +20,30 @@ $(document).ready(function () {
     $('#target2').prop('disabled', true);
     // disable a button by targeting the elements properties
 
-    $('h1').html('Learning <strong>jQuery</strong> is so much fun!');
+    // ======
     // adding more text
+
+    $('h1').html('Learning <strong>jQuery</strong> is so much fun!');
+
 
     // $('h1').text('Learning <strong>jQuery</strong> is so much fun!');
     // can also use .text as shown (but this will include the <strong> markup tags etc)
+
+    // ======
+    // removing an element
+
+
+    // $('#target1').remove('');
+    // removing an element using jQuery
+
+    // ======
+    // appendTo
+
+    $('#target4').appendTo('.left');
+    // move a button from the right colmn to the left column (one column given a class of 'left' the other given a class of right)
+
+    // ======
+    // clone and appendTo (chaining functions)
+
+    $('.left').clone().appendTo('.right');
 });
