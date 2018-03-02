@@ -4,5 +4,9 @@
 
 $(document).ready(function () {
     $('button').addClass('animated bounce');
-    //target all the elments in the DOM with the name of button
+    // target all the elments in the DOM with the name of button
+    $('.btn-success').addClass('shake');
+    // target a button with a particular class
+    $('#target6').addClass('fadeOut');
+    // target a button with a particular ID
 });
