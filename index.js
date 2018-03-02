@@ -3,5 +3,6 @@
 // then call a function - everything within the function executes when the document is ready
 
 $(document).ready(function () {
-    alert("hello there");
+    $('button').addClass('animated bounce');
+    //target all the elments in the DOM with the name of button
 });
