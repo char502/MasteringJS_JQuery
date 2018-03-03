@@ -39,11 +39,32 @@ $(document).ready(function () {
     // ======
     // appendTo
 
-    $('#target4').appendTo('.left');
+    // $('#target4').appendTo('.left');
     // move a button from the right colmn to the left column (one column given a class of 'left' the other given a class of right)
 
     // ======
     // clone and appendTo (chaining functions)
 
-    $('.left').clone().appendTo('.right');
+    // $('.left').clone().appendTo('.right');
+
+    // target parent
+    // target child
+    // target specific child
+    // target even numbers
+
+    // targeting a parent:
+    $('.heading2').parent().css('backgroundColor', 'red');
+
+    // targeting a child:
+    $('.heading2right').children().css('color', 'red');
+
+    // targeting a specific child
+    // $('.target:nth-child(4)').addClass('flash');
+
+    // targeting a specific child
+    // $('.target:nth-child(2)').addClass('animated swing');
+
+    // target even and odd numbers
+    $('.target:odd').addClass('animated swing');
+
 });
